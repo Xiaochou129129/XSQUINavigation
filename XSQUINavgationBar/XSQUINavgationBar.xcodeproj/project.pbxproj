@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4F816161FD7FB1400DF9092 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F816151FD7FB1400DF9092 /* AppDelegate.m */; };
+		C4F816191FD7FB1400DF9092 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F816181FD7FB1400DF9092 /* ViewController.m */; };
+		C4F8161C1FD7FB1400DF9092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F8161A1FD7FB1400DF9092 /* Main.storyboard */; };
+		C4F8161E1FD7FB1400DF9092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F8161D1FD7FB1400DF9092 /* Assets.xcassets */; };
+		C4F816211FD7FB1400DF9092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F8161F1FD7FB1400DF9092 /* LaunchScreen.storyboard */; };
+		C4F816241FD7FB1400DF9092 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F816231FD7FB1400DF9092 /* main.m */; };
+		C4F8162E1FD7FB1400DF9092 /* XSQUINavgationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F8162D1FD7FB1400DF9092 /* XSQUINavgationBarTests.m */; };
+		C4F816391FD7FB1400DF9092 /* XSQUINavgationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F816381FD7FB1400DF9092 /* XSQUINavgationBarUITests.m */; };
+		C4F816481FD7FB4D00DF9092 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F816471FD7FB4D00DF9092 /* HomePageViewController.m */; };
+		C4F8164B1FD7FBB900DF9092 /* UIImage+XSQAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F8164A1FD7FBB900DF9092 /* UIImage+XSQAlpha.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4F8162A1FD7FB1400DF9092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F816091FD7FB1400DF9092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F816101FD7FB1400DF9092;
+			remoteInfo = XSQUINavgationBar;
+		};
+		C4F816351FD7FB1400DF9092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F816091FD7FB1400DF9092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F816101FD7FB1400DF9092;
+			remoteInfo = XSQUINavgationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4F816111FD7FB1400DF9092 /* XSQUINavgationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSQUINavgationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F816141FD7FB1400DF9092 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4F816151FD7FB1400DF9092 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4F816171FD7FB1400DF9092 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4F816181FD7FB1400DF9092 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4F8161B1FD7FB1400DF9092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4F8161D1FD7FB1400DF9092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4F816201FD7FB1400DF9092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4F816221FD7FB1400DF9092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F816231FD7FB1400DF9092 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4F816291FD7FB1400DF9092 /* XSQUINavgationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSQUINavgationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F8162D1FD7FB1400DF9092 /* XSQUINavgationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSQUINavgationBarTests.m; sourceTree = "<group>"; };
+		C4F8162F1FD7FB1400DF9092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F816341FD7FB1400DF9092 /* XSQUINavgationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSQUINavgationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F816381FD7FB1400DF9092 /* XSQUINavgationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSQUINavgationBarUITests.m; sourceTree = "<group>"; };
+		C4F8163A1FD7FB1400DF9092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F816461FD7FB4D00DF9092 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		C4F816471FD7FB4D00DF9092 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		C4F816491FD7FBB900DF9092 /* UIImage+XSQAlpha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XSQAlpha.h"; sourceTree = "<group>"; };
+		C4F8164A1FD7FBB900DF9092 /* UIImage+XSQAlpha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XSQAlpha.m"; sourceTree = "<group>"; };
+		C4F8164C1FD7FC5E00DF9092 /* XSQHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSQHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4F8160E1FD7FB1400DF9092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F816261FD7FB1400DF9092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F816311FD7FB1400DF9092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4F816081FD7FB1400DF9092 = {
+			isa = PBXGroup;
+			children = (
+				C4F816131FD7FB1400DF9092 /* XSQUINavgationBar */,
+				C4F8162C1FD7FB1400DF9092 /* XSQUINavgationBarTests */,
+				C4F816371FD7FB1400DF9092 /* XSQUINavgationBarUITests */,
+				C4F816121FD7FB1400DF9092 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4F816121FD7FB1400DF9092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4F816111FD7FB1400DF9092 /* XSQUINavgationBar.app */,
+				C4F816291FD7FB1400DF9092 /* XSQUINavgationBarTests.xctest */,
+				C4F816341FD7FB1400DF9092 /* XSQUINavgationBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4F816131FD7FB1400DF9092 /* XSQUINavgationBar */ = {
+			isa = PBXGroup;
+			children = (
+				C4F816141FD7FB1400DF9092 /* AppDelegate.h */,
+				C4F816151FD7FB1400DF9092 /* AppDelegate.m */,
+				C4F816171FD7FB1400DF9092 /* ViewController.h */,
+				C4F816181FD7FB1400DF9092 /* ViewController.m */,
+				C4F8161A1FD7FB1400DF9092 /* Main.storyboard */,
+				C4F8161D1FD7FB1400DF9092 /* Assets.xcassets */,
+				C4F8161F1FD7FB1400DF9092 /* LaunchScreen.storyboard */,
+				C4F816221FD7FB1400DF9092 /* Info.plist */,
+				C4F816231FD7FB1400DF9092 /* main.m */,
+				C4F816461FD7FB4D00DF9092 /* HomePageViewController.h */,
+				C4F816471FD7FB4D00DF9092 /* HomePageViewController.m */,
+				C4F816491FD7FBB900DF9092 /* UIImage+XSQAlpha.h */,
+				C4F8164A1FD7FBB900DF9092 /* UIImage+XSQAlpha.m */,
+				C4F8164C1FD7FC5E00DF9092 /* XSQHeader.pch */,
+			);
+			path = XSQUINavgationBar;
+			sourceTree = "<group>";
+		};
+		C4F8162C1FD7FB1400DF9092 /* XSQUINavgationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F8162D1FD7FB1400DF9092 /* XSQUINavgationBarTests.m */,
+				C4F8162F1FD7FB1400DF9092 /* Info.plist */,
+			);
+			path = XSQUINavgationBarTests;
+			sourceTree = "<group>";
+		};
+		C4F816371FD7FB1400DF9092 /* XSQUINavgationBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F816381FD7FB1400DF9092 /* XSQUINavgationBarUITests.m */,
+				C4F8163A1FD7FB1400DF9092 /* Info.plist */,
+			);
+			path = XSQUINavgationBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4F816101FD7FB1400DF9092 /* XSQUINavgationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F8163D1FD7FB1400DF9092 /* Build configuration list for PBXNativeTarget "XSQUINavgationBar" */;
+			buildPhases = (
+				C4F8160D1FD7FB1400DF9092 /* Sources */,
+				C4F8160E1FD7FB1400DF9092 /* Frameworks */,
+				C4F8160F1FD7FB1400DF9092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XSQUINavgationBar;
+			productName = XSQUINavgationBar;
+			productReference = C4F816111FD7FB1400DF9092 /* XSQUINavgationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4F816281FD7FB1400DF9092 /* XSQUINavgationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F816401FD7FB1400DF9092 /* Build configuration list for PBXNativeTarget "XSQUINavgationBarTests" */;
+			buildPhases = (
+				C4F816251FD7FB1400DF9092 /* Sources */,
+				C4F816261FD7FB1400DF9092 /* Frameworks */,
+				C4F816271FD7FB1400DF9092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F8162B1FD7FB1400DF9092 /* PBXTargetDependency */,
+			);
+			name = XSQUINavgationBarTests;
+			productName = XSQUINavgationBarTests;
+			productReference = C4F816291FD7FB1400DF9092 /* XSQUINavgationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4F816331FD7FB1400DF9092 /* XSQUINavgationBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F816431FD7FB1400DF9092 /* Build configuration list for PBXNativeTarget "XSQUINavgationBarUITests" */;
+			buildPhases = (
+				C4F816301FD7FB1400DF9092 /* Sources */,
+				C4F816311FD7FB1400DF9092 /* Frameworks */,
+				C4F816321FD7FB1400DF9092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F816361FD7FB1400DF9092 /* PBXTargetDependency */,
+			);
+			name = XSQUINavgationBarUITests;
+			productName = XSQUINavgationBarUITests;
+			productReference = C4F816341FD7FB1400DF9092 /* XSQUINavgationBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4F816091FD7FB1400DF9092 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "谢松樵";
+				TargetAttributes = {
+					C4F816101FD7FB1400DF9092 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C4F816281FD7FB1400DF9092 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4F816101FD7FB1400DF9092;
+					};
+					C4F816331FD7FB1400DF9092 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4F816101FD7FB1400DF9092;
+					};
+				};
+			};
+			buildConfigurationList = C4F8160C1FD7FB1400DF9092 /* Build configuration list for PBXProject "XSQUINavgationBar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4F816081FD7FB1400DF9092;
+			productRefGroup = C4F816121FD7FB1400DF9092 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4F816101FD7FB1400DF9092 /* XSQUINavgationBar */,
+				C4F816281FD7FB1400DF9092 /* XSQUINavgationBarTests */,
+				C4F816331FD7FB1400DF9092 /* XSQUINavgationBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4F8160F1FD7FB1400DF9092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F816211FD7FB1400DF9092 /* LaunchScreen.storyboard in Resources */,
+				C4F8161E1FD7FB1400DF9092 /* Assets.xcassets in Resources */,
+				C4F8161C1FD7FB1400DF9092 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F816271FD7FB1400DF9092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F816321FD7FB1400DF9092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4F8160D1FD7FB1400DF9092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F816481FD7FB4D00DF9092 /* HomePageViewController.m in Sources */,
+				C4F816191FD7FB1400DF9092 /* ViewController.m in Sources */,
+				C4F8164B1FD7FBB900DF9092 /* UIImage+XSQAlpha.m in Sources */,
+				C4F816241FD7FB1400DF9092 /* main.m in Sources */,
+				C4F816161FD7FB1400DF9092 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F816251FD7FB1400DF9092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F8162E1FD7FB1400DF9092 /* XSQUINavgationBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F816301FD7FB1400DF9092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F816391FD7FB1400DF9092 /* XSQUINavgationBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4F8162B1FD7FB1400DF9092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F816101FD7FB1400DF9092 /* XSQUINavgationBar */;
+			targetProxy = C4F8162A1FD7FB1400DF9092 /* PBXContainerItemProxy */;
+		};
+		C4F816361FD7FB1400DF9092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F816101FD7FB1400DF9092 /* XSQUINavgationBar */;
+			targetProxy = C4F816351FD7FB1400DF9092 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4F8161A1FD7FB1400DF9092 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F8161B1FD7FB1400DF9092 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4F8161F1FD7FB1400DF9092 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F816201FD7FB1400DF9092 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4F8163B1FD7FB1400DF9092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4F8163C1FD7FB1400DF9092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4F8163E1FD7FB1400DF9092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/xiesongqiao/Documents/XSQUINavgationBar/XSQUINavgationBar/XSQHeader.pch;
+				INFOPLIST_FILE = XSQUINavgationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xsq.XSQUINavgationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4F8163F1FD7FB1400DF9092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/xiesongqiao/Documents/XSQUINavgationBar/XSQUINavgationBar/XSQHeader.pch;
+				INFOPLIST_FILE = XSQUINavgationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xsq.XSQUINavgationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4F816411FD7FB1400DF9092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XSQUINavgationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xsq.XSQUINavgationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XSQUINavgationBar.app/XSQUINavgationBar";
+			};
+			name = Debug;
+		};
+		C4F816421FD7FB1400DF9092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XSQUINavgationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xsq.XSQUINavgationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XSQUINavgationBar.app/XSQUINavgationBar";
+			};
+			name = Release;
+		};
+		C4F816441FD7FB1400DF9092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XSQUINavgationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xsq.XSQUINavgationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XSQUINavgationBar;
+			};
+			name = Debug;
+		};
+		C4F816451FD7FB1400DF9092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XSQUINavgationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xsq.XSQUINavgationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XSQUINavgationBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4F8160C1FD7FB1400DF9092 /* Build configuration list for PBXProject "XSQUINavgationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F8163B1FD7FB1400DF9092 /* Debug */,
+				C4F8163C1FD7FB1400DF9092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F8163D1FD7FB1400DF9092 /* Build configuration list for PBXNativeTarget "XSQUINavgationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F8163E1FD7FB1400DF9092 /* Debug */,
+				C4F8163F1FD7FB1400DF9092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F816401FD7FB1400DF9092 /* Build configuration list for PBXNativeTarget "XSQUINavgationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F816411FD7FB1400DF9092 /* Debug */,
+				C4F816421FD7FB1400DF9092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F816431FD7FB1400DF9092 /* Build configuration list for PBXNativeTarget "XSQUINavgationBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F816441FD7FB1400DF9092 /* Debug */,
+				C4F816451FD7FB1400DF9092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4F816091FD7FB1400DF9092 /* Project object */;
+}
