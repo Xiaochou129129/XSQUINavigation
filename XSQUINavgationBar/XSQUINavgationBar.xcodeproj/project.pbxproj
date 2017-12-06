@@ -57,7 +57,6 @@
 		C4F816471FD7FB4D00DF9092 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		C4F816491FD7FBB900DF9092 /* UIImage+XSQAlpha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XSQAlpha.h"; sourceTree = "<group>"; };
 		C4F8164A1FD7FBB900DF9092 /* UIImage+XSQAlpha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XSQAlpha.m"; sourceTree = "<group>"; };
-		C4F8164C1FD7FC5E00DF9092 /* XSQHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSQHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +120,6 @@
 				C4F816471FD7FB4D00DF9092 /* HomePageViewController.m */,
 				C4F816491FD7FBB900DF9092 /* UIImage+XSQAlpha.h */,
 				C4F8164A1FD7FBB900DF9092 /* UIImage+XSQAlpha.m */,
-				C4F8164C1FD7FC5E00DF9092 /* XSQHeader.pch */,
 			);
 			path = XSQUINavgationBar;
 			sourceTree = "<group>";
@@ -445,8 +443,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/xiesongqiao/Documents/XSQUINavgationBar/XSQUINavgationBar/XSQHeader.pch;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = XSQUINavgationBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xsq.XSQUINavgationBar;
@@ -460,8 +458,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/xiesongqiao/Documents/XSQUINavgationBar/XSQUINavgationBar/XSQHeader.pch;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = XSQUINavgationBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xsq.XSQUINavgationBar;
